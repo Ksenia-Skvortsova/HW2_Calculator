@@ -18,7 +18,7 @@ def main():
     if op == "+":
         print(add(a,b))
     elif op == "-":
-        print(substract(a,b))
+        print(subtract(a,b))
     elif op == "/":
         print(divide(a,b))
     elif op == "*":
