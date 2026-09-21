@@ -10,7 +10,7 @@
 
     
 
-def main(a,b):
+def main():
     a = float(input("First number: "))
     op = input("Operation: ")
     b = float(input("Second number: "))
@@ -24,4 +24,4 @@ def main(a,b):
     elif op == "*":
         print(multiply(a,b))
 
-main(a,b)
+main()
