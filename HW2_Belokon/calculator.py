@@ -9,7 +9,9 @@
 
 
     
-
+def multiply(a, b):
+    return a * b
+    
 def main():
     a = float(input("First number: "))
     op = input("Operation: ")
