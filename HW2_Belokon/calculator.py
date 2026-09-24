@@ -1,14 +1,6 @@
 
-   
-
-
- 
-
-
-    
-
-
-    
+def add(a,b): 
+    return a+b
 
 def main():
     a = float(input("First number: "))
