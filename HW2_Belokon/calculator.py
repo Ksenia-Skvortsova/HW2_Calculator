@@ -25,3 +25,7 @@ def main():
         print(multiply(a,b))
 
 main()
+
+# Kutelev Ivan
+def divide(a,b):
+    return a / b
