@@ -9,7 +9,9 @@
 
 
     
-
+def multiply(a, b):
+    return a * b
+    
 def main():
     a, op, b = input('Введите два числа и оператор через пробел: ').split()
     a = float(a)
