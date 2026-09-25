@@ -1,11 +1,9 @@
 
-def add(a,b): 
-    return a+b
-
+    
 def main():
-    a = float(input("First number: "))
-    op = input("Operation: ")
-    b = float(input("Second number: "))
+    a, op, b = input('Введите два числа и оператор через пробел: ').split()
+    a = float(a)
+    b = float(b)
 
     if op == "+":
         print(add(a,b))
@@ -17,3 +15,13 @@ def main():
         print(multiply(a,b))
 
 main()
+
+# Kutelev Ivan
+def divide(a,b):
+    return a / b
+    
+def add(a,b): 
+    return a+b
+    
+def multiply(a, b):
+    return a * b
