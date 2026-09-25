@@ -11,9 +11,9 @@
     
 
 def main():
-    a = float(input("First number: "))
-    op = input("Operation: ")
-    b = float(input("Second number: "))
+    a, op, b = input('Введите два числа и оператор через пробел: ').split()
+    a = float(a)
+    b = float(b)
 
     if op == "+":
         print(add(a,b))
